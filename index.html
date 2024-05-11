@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header
+      class="header px-[16px] py-[30px] bg-[#2B3844] flex fle-row justify-between items-center lg:px-[80px]"
+    >
+      <h5 class="header-title text-white font-[800] text-[14px] leading-[20px]  md:text-[24px] md:leading-[32.74px]">
+        Where in the world?
+      </h5>
+      <div
+        class="header-left-box flex fle-row justify-center items-center gap-[8px]"
+      >
+      <a
+      href="./about.html"
+      class="w-[136px]  py-[10px] bg-[#202C36] round-[10px] text-white flex justify-center items-center gap-[10px]"
+    >
+    Next
+    <i class="fa-solid fa-arrow-right fa-sm"></i>
+    </a>
+       <img
+          class="header-icon md:w-[20px] md:h-[20px]"
+          src="./icons/moon.svg"
+          width="16"
+          height="16"
+          alt="moon"
+        />
+        <p
+          class="header6darkmode text-white font0-[600] text-[12px] leading-[16.37px] md:text-[16px] md:leading-[21.82px]"
+        >
+          Dark Mode
+        </p>
+      </div>
+    </header>
+    <main class="bg-[#202C36]">
+      <section class="hero px-[16px] lg:px-[80px] bg-[#202C36] pt-[20px] md:pt-[48px]">
+        <div
+          class="hero-container flex flex-col justify-center items-center gap-[120px] md:flex md:flex-col md:justify-center md:items-start md:gap-[48px]"
+        >
+          <form class="hero-form w-full md:w-[480px]">
+            <div class="relative">
+              <div
+                class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none"
+              >
+                <svg
+                  class="w-4 h-4 text-white"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    stroke="curre6tColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+                  />
+                </svg>
+              </div>
+              <input
+                type="search"
+                id="default-search"
+                class="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="Search for a country…"
+                required
+              />
+            </div>
+          </form>
+          <div
+            class="hero-main-cart flex flex-col justify-center items-center gap-[40px] md:flex md:flex-row md:flex-wrap md:justify-between md:items-start md:w-full"
+          >
+            <div
+              class="hero-carts bg-[#2B3844] flex flex-col justify-center items-start rounded-[8px]"
+            >
+              <img
+                class="hero-carts-images w-[267px]   rounded-t-[8px] md:w-[267px] h-[160px]"
+                src="./images/germany.png"
+                alt="germany"
+              />
+              <div>
+                <h4
+                  class="pl-[24px] pt-[24px] hero-titles font-[800] text-[18px leading-[26px] text-white mb-[16px]"
+                >
+                  Germany
+                </h4>
+                <div class="pl-[24px]">
+                  <p
+                    class="font-[600] text-[14px] leading-[16px] text-white mb-[8px]"
+                  >
+                    Population:
+                    <span class="font-[300] text-[14px] leading-[16px] text-white mb-[8px]"
+                      >81,770,900</span
+                    >
+                  </p>
+                </div>
+                <div class="pl-[24px]">
+                  <p
+                    class="font-[600] text-[14px] leading-[16px] text-white mb-[8px]"
+                  >
+                    Region:
+                    <span class="font-[300] text-[14px] leading-[16px] text-white mb-[8px]"
+                      >Europe</span
+                    >
+                  </p>
+                </div>
+                <div class="pl-[24px] pb-[46px]">
+                  <p
+                    class="font-[600] text-[14px] leading-[16px] text-white mb-[8px]"
+                  >
+                    Capital:
+                    <span class="font-[300] text-[14px] leading-[16px] text-white mb-[8px]"
+                      >Berlin</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="hero-carts bg-[#2B3844] flex flex-col justify-center items-start rounded-[8px]"
+            >
+              <img
+                class="hero-carts-images w-[267px]   rounded-t-[8px] md:w-[267px] h-[160px]"
+                src="./images/usa.png "
+                alt="germany"
+              />
+              <div>
+                <h4
+                  class="pl-[24px] pt-[24px] hero-titles font-[800] text-[18px leading-[26px] text-white mb-[16px]"
+                >
+                  United States of America
+                </h4>
+                <div class="pl-[24px]">
+                  <p
+                    class="font-[600] text-[14px] leading-[16px] text-white mb-[8px]"
+                  >
+                    Population:
+                    <span class="font-[300] text-[14px] leading-[16px] text-white mb-[8px]"
+                      >323,947,000</span
+                    >
+                  </p>
+                </div>
+                <div class="pl-[24px]">
+                  <p
+                    class="font-[600] text-[14px] leading-[16px] text-white mb-[8px]"
+                  >
+                    Region:
+                    <span class="font-[300] text-[14px] leading-[16px] text-white mb-[8px]"
+                      >Americas</span
+                    >
+                  </p>
+                </div>
+                <div class="pl-[24px] pb-[46px]">
+                  <p
+                    class="font-[600] text-[14px] leading-[16px] text-white mb-[8px]"
+                  >
+                    Capital:
+                    <span class="font-[300] text-[14px] leading-[16px] text-white mb-[8px]"
+                      >Washington, D.C.</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="hero-carts bg-[#2B3844] flex flex-col justify-center items-start rounded-[8px]"
+            >
+              <img
+                class="hero-carts-images w-[267px]   rounded-t-[8px] md:w-[267px] h-[160px]"
+                src="./images/brasil.png"
+                alt="germany"
+              />
+              <div>
+                <h4
+                  class="pl-[24px] pt-[24px] hero-titles font-[800] text-[18px leading-[26px] text-white mb-[16px]"
+                >
+                  Brazil
+                </h4>
+                <div class="pl-[24px]">
+                  <p
+                    class="font-[600] text-[14px] leading-[16px] text-white mb-[8px]"
+                  >
+                    Population:
+                    <span class="font-[300] text-[14px] leading-[16px] text-white mb-[8px]"
+                      >206,135,893</span
+                    >
+                  </p>
+                </div>
+                <div class="pl-[24px]">
+                  <p
+                    class="font-[600] text-[14px] leading-[16px] text-white mb-[8px]"
+                  >
+                    Region:
+                    <span class="font-[300] text-[14px] leading-[16px] text-white mb-[8px]"
+                      >Americas</span
+                    >
+                  </p>
+                </div>
+                <div class="pl-[24px] pb-[46px]">
+                  <p
+                    class="font-[600] text-[14px] leading-[16px] text-white mb-[8px]"
+                  >
+                    Capital:
+                    <span class="font-[300] text-[14px] leading-[16px] text-white mb-[8px]"
+                      >Brasília</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="hero-carts bg-[#2B3844] flex flex-col justify-center items-start rounded-[8px]"
+            >
+              <img
+                class="hero-carts-images w-[267px]   rounded-t-[8px] md:w-[267px] h-[160px] object-cover"
+                src="./images/iceland.png"
+                alt="germany"
+              />
+              <div>
+                <h4
+                  class="pl-[24px] pt-[24px] hero-titles font-[800] text-[18px leading-[26px] text-white mb-[16px]"
+                >
+                  Iceland
+                </h4>
+                <div class="pl-[24px]">
+                  <p
+                    class="font-[600] text-[14px] leading-[16px] text-white mb-[8px]"
+                  >
+                    Population:
+                    <sfont-[300] text-[14px] leading-[16px] text-white mb-[8px]eading-[16px] mb-[8px]"
+                    >
+                      334,300
+                    </span>
+                  </p>
+                </div>
+                <div class="pl-[24px]">
+                  <p
+                    class="font-[600] text-[14px] leading-[16px] text-white mb-[8px]"
+                  >
+                    Region:
+                    <sfont-[300] text-[14px] leading-[16px] text-white mb-[8px]eading-[16px] mb-[8px]"
+                    >
+                      Region: Europe
+                    </span>
+                  </p>
+                </div>
+                <div class="pl-[24px] pb-[46px]">
+                  <p
+                    class="font-[600] text-[14px] leading-[16px] text-white mb-[8px]"
+                  >
+                    Capital:
+                    <sfont-[300] text-[14px] leading-[16px] text-white mb-[8px]eading-[16px] mb-[8px]"
+                    >
+                      Reykjavík
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="hero px-[16px] lg:px-[80px] bg-[#202C36] pt-[20px] md:pt-[75px]">
+        <div
+          class="hero-container flex flex-col justify-center items-center  md:flex md:flex-col md:justify-between md:items-center"
+        >
+          <div
+            class="hero-main-cart flex flex-col justify-center items-center gap-[40px] md:flex md:flex-row md:flex-wrap md:justify-between md:items-start md:w-full"
+          >
+            <div
+              class="hero-carts bg-[#2B3844] flex flex-col justify-center items-start rounded-[8px]"
+            >
+              <img
+                class="hero-carts-images w-[267px]   rounded-t-[8px] md:w-[267px] h-[160px]"
+                src="./images/afghanistan.png"
+                alt="germany"
+              />
+              <div>
+                <h4
+                  class="pl-[24px] pt-[24px] hero-titles font-[800] text-[18px leading-[26px] text-white mb-[16px]"
+                >
+                Afghanistan
+                </h4>
+                <div class="pl-[24px]">
+                  <p
+                    class="font-[600] text-[14px] leading-[16px] text-white mb-[8px]"
+                  >
+                    Population:
+                    <span class="font-[300] text-[14px] leading-[16px] text-white mb-[8px]"
+                      >
+                      27,657,145
+                      </span
+                    >
+                  </p>
+                </div>
+                <div class="pl-[24px]">
+                  <p
+                    class="font-[600] text-[14px] leading-[16px] text-white mb-[8px]"
+                  >
+                    Region:
+                    <span class="font-[300] text-[14px] leading-[16px] text-white mb-[8px]"
+                      >Asia</span
+                    >
+                  </p>
+                </div>
+                <div class="pl-[24px] pb-[46px]">
+                  <p
+                    class="font-[600] text-[14px] leading-[16px] text-white mb-[8px]"
+                  >
+                    Capital:
+                    <span class="font-[300] text-[14px] leading-[16px] text-white mb-[8px]"
+                      >Kabul</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="hero-carts bg-[#2B3844] flex flex-col justify-center items-start rounded-[8px]"
+            >
+              <img
+                class="hero-carts-images w-[267px]   rounded-t-[8px] md:w-[267px] h-[160px]"
+                src="./images/british.png "
+                alt="germany"
+              />
+              <div>
+                <h4
+                  class="pl-[24px] pt-[24px] hero-titles font-[800] text-[18px leading-[26px] text-white mb-[16px]"
+                >
+            British
+                </h4>
+                <div class="pl-[24px]">
+                  <p
+                    class="font-[600] text-[14px] leading-[16px] text-white mb-[8px]"
+                  >
+                    Population:
+                    <span class="font-[300] text-[14px] leading-[16px] text-white mb-[8px]"
+                      >323,947,000</span
+                    >
+                  </p>
+                </div>
+                <div class="pl-[24px]">
+                  <p
+                    class="font-[600] text-[14px] leading-[16px] text-white mb-[8px]"
+                  >
+                    Region:
+                    <span class="font-[300] text-[14px] leading-[16px] text-white mb-[8px]"
+                      >Europe</span
+                    >
+                  </p>
+                </div>
+                <div class="pl-[24px] pb-[46px]">
+                  <p
+                    class="font-[600] text-[14px] leading-[16px] text-white mb-[8px]"
+                  >
+                    Capital:
+                    <span class="font-[300] text-[14px] leading-[16px] text-white mb-[8px]"
+                      >London</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="hero-carts bg-[#2B3844] flex flex-col justify-center items-start rounded-[8px]"
+            >
+              <img
+                class="hero-carts-images w-[267px]   rounded-t-[8px] md:w-[267px] h-[160px]"
+                src="./images/albania.png"
+                alt="germany"
+              />
+              <div>
+                <h4
+                  class="pl-[24px] pt-[24px] hero-titles font-[800] text-[18px leading-[26px] text-white mb-[16px]"
+                >
+                Albania
+                </h4>
+                <div class="pl-[24px]">
+                  <p
+                    class="font-[600] text-[14px] leading-[16px] text-white mb-[8px]"
+                  >
+                    Population:
+                    <span class="font-[300] text-[14px] leading-[16px] text-white mb-[8px]"
+                      >
+                      2,886,026
+                      </span
+                    >
+                  </p>
+                </div>
+                <div class="pl-[24px]">
+                  <p
+                    class="font-[600] text-[14px] leading-[16px] text-white mb-[8px]"
+                  >
+                    Region:
+                    <span class="font-[300] text-[14px] leading-[16px] text-white mb-[8px]"
+                      >Europe</span
+                    >
+                  </p>
+                </div>
+                <div class="pl-[24px] pb-[46px]">
+                  <p
+                    class="font-[600] text-[14px] leading-[16px] text-white mb-[8px]"
+                  >
+                    Capital:
+                    <span class="font-[300] text-[14px] leading-[16px] text-white mb-[8px]"
+                      >
+                      Tirana
+                      </span
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="hero-carts bg-[#2B3844] flex flex-col justify-center items-start rounded-[8px]"
+            >
+              <img
+                class="hero-carts-images w-[267px]   rounded-t-[8px] md:w-[267px] h-[160px] object-cover"
+                src="./images/pakistan.png"
+                alt="germany"
+              />
+              <div>
+                <h4
+                  class="pl-[24px] pt-[24px] hero-titles font-[800] text-[18px leading-[26px] text-white mb-[16px]"
+                >
+                Algeria
+                </h4>
+                <div class="pl-[24px]">
+                  <p
+                    class="font-[600] text-[14px] leading-[16px] text-white mb-[8px]"
+                  >
+                    Population:
+                    <sfont-[300] text-[14px] leading-[16px] text-white mb-[8px]eading-[16px] mb-[8px]"
+                    >
+       40,400,000
+                    </span>
+                  </p>
+                </div>
+                <div class="pl-[24px]">
+                  <p
+                    class="font-[600] text-[14px] leading-[16px] text-white mb-[8px]"
+                  >
+                    Region:
+                    <sfont-[300] text-[14px] leading-[16px] text-white mb-[8px]eading-[16px] mb-[8px]"
+                    >
+                      Region: Europe
+                    </span>
+                  </p>
+                </div>
+                <div class="pl-[24px] pb-[46px]">
+                  <p
+                    class="font-[600] text-[14px] leading-[16px] text-white mb-[8px]"
+                  >
+                    Capital:
+                    <sfont-[300] text-[14px] leading-[16px] text-white mb-[8px]eading-[16px] mb-[8px]"
+                    >
+                      Reykjavík
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
